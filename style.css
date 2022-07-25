@@ -153,6 +153,16 @@ h3 {
 .icon span {
     margin-right: 30px;
 }
+/* #view {
+    background-color: #DD0000;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 80%;
+} */
 /* =========== footer part =========== */
 .footer {
     margin-top: 130px;
@@ -198,3 +208,79 @@ ul {
 }
 
 /* =========== footer part end=========== */
+
+
+
+
+
+/* =========== Responsive for tab =========== */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 734px;
+        margin: auto;
+    }
+    .hero {
+        margin-top: 40px;
+    }
+    .half-width {
+        width: 50%;
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 32px;
+    }
+    .button {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .button i {
+        font-size: 15px;
+    }
+    .half-width img {
+        width: 95%;
+        height: 380px;
+    }
+
+    /* =========== header part end =========== */
+
+    .blog {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .menu {
+        width: 95%;
+        background-color: rgb(255, 255, 255);
+        height: 110px;
+        margin: auto;
+    }
+    .menu ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .menu li {
+        border: 1px solid #E8E8E8;
+    }
+    .main-theme {
+        margin-top: 30px;
+        margin-left: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* =========== main part end =========== */
+
+    .footer-menu ul {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    hr {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+/* =========== Responsive for tab end =========== */
